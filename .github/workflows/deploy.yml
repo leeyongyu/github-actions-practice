@@ -25,3 +25,8 @@ jobs:
         run : |
           echo "One"
           echo "Two"
+
+      - name : Github Actions 저장 변수 사용
+        run : |
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
